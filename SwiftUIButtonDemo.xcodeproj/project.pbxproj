@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		887A6F7923BF41640064462D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887A6F7823BF41640064462D /* AppDelegate.swift */; };
+		887A6F7B23BF41640064462D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887A6F7A23BF41640064462D /* SceneDelegate.swift */; };
+		887A6F7D23BF41640064462D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887A6F7C23BF41640064462D /* ContentView.swift */; };
+		887A6F7F23BF41680064462D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887A6F7E23BF41680064462D /* Assets.xcassets */; };
+		887A6F8223BF41680064462D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887A6F8123BF41680064462D /* Preview Assets.xcassets */; };
+		887A6F8523BF41680064462D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887A6F8323BF41680064462D /* LaunchScreen.storyboard */; };
+		887A6F9023BF41680064462D /* SwiftUIButtonDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887A6F8F23BF41680064462D /* SwiftUIButtonDemoTests.swift */; };
+		887A6F9B23BF41680064462D /* SwiftUIButtonDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887A6F9A23BF41680064462D /* SwiftUIButtonDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		887A6F8C23BF41680064462D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 887A6F6D23BF41640064462D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887A6F7423BF41640064462D;
+			remoteInfo = SwiftUIButtonDemo;
+		};
+		887A6F9723BF41680064462D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 887A6F6D23BF41640064462D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887A6F7423BF41640064462D;
+			remoteInfo = SwiftUIButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		887A6F7523BF41640064462D /* SwiftUIButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		887A6F7823BF41640064462D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		887A6F7A23BF41640064462D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		887A6F7C23BF41640064462D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		887A6F7E23BF41680064462D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		887A6F8123BF41680064462D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		887A6F8423BF41680064462D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		887A6F8623BF41680064462D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887A6F8B23BF41680064462D /* SwiftUIButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		887A6F8F23BF41680064462D /* SwiftUIButtonDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButtonDemoTests.swift; sourceTree = "<group>"; };
+		887A6F9123BF41680064462D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887A6F9623BF41680064462D /* SwiftUIButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		887A6F9A23BF41680064462D /* SwiftUIButtonDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButtonDemoUITests.swift; sourceTree = "<group>"; };
+		887A6F9C23BF41680064462D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		887A6F7223BF41640064462D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887A6F8823BF41680064462D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887A6F9323BF41680064462D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		887A6F6C23BF41640064462D = {
+			isa = PBXGroup;
+			children = (
+				887A6F7723BF41640064462D /* SwiftUIButtonDemo */,
+				887A6F8E23BF41680064462D /* SwiftUIButtonDemoTests */,
+				887A6F9923BF41680064462D /* SwiftUIButtonDemoUITests */,
+				887A6F7623BF41640064462D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		887A6F7623BF41640064462D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				887A6F7523BF41640064462D /* SwiftUIButtonDemo.app */,
+				887A6F8B23BF41680064462D /* SwiftUIButtonDemoTests.xctest */,
+				887A6F9623BF41680064462D /* SwiftUIButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		887A6F7723BF41640064462D /* SwiftUIButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				887A6F7823BF41640064462D /* AppDelegate.swift */,
+				887A6F7A23BF41640064462D /* SceneDelegate.swift */,
+				887A6F7C23BF41640064462D /* ContentView.swift */,
+				887A6F7E23BF41680064462D /* Assets.xcassets */,
+				887A6F8323BF41680064462D /* LaunchScreen.storyboard */,
+				887A6F8623BF41680064462D /* Info.plist */,
+				887A6F8023BF41680064462D /* Preview Content */,
+			);
+			path = SwiftUIButtonDemo;
+			sourceTree = "<group>";
+		};
+		887A6F8023BF41680064462D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				887A6F8123BF41680064462D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		887A6F8E23BF41680064462D /* SwiftUIButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				887A6F8F23BF41680064462D /* SwiftUIButtonDemoTests.swift */,
+				887A6F9123BF41680064462D /* Info.plist */,
+			);
+			path = SwiftUIButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		887A6F9923BF41680064462D /* SwiftUIButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				887A6F9A23BF41680064462D /* SwiftUIButtonDemoUITests.swift */,
+				887A6F9C23BF41680064462D /* Info.plist */,
+			);
+			path = SwiftUIButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		887A6F7423BF41640064462D /* SwiftUIButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887A6F9F23BF41680064462D /* Build configuration list for PBXNativeTarget "SwiftUIButtonDemo" */;
+			buildPhases = (
+				887A6F7123BF41640064462D /* Sources */,
+				887A6F7223BF41640064462D /* Frameworks */,
+				887A6F7323BF41640064462D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIButtonDemo;
+			productName = SwiftUIButtonDemo;
+			productReference = 887A6F7523BF41640064462D /* SwiftUIButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		887A6F8A23BF41680064462D /* SwiftUIButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887A6FA223BF41680064462D /* Build configuration list for PBXNativeTarget "SwiftUIButtonDemoTests" */;
+			buildPhases = (
+				887A6F8723BF41680064462D /* Sources */,
+				887A6F8823BF41680064462D /* Frameworks */,
+				887A6F8923BF41680064462D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				887A6F8D23BF41680064462D /* PBXTargetDependency */,
+			);
+			name = SwiftUIButtonDemoTests;
+			productName = SwiftUIButtonDemoTests;
+			productReference = 887A6F8B23BF41680064462D /* SwiftUIButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		887A6F9523BF41680064462D /* SwiftUIButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887A6FA523BF41680064462D /* Build configuration list for PBXNativeTarget "SwiftUIButtonDemoUITests" */;
+			buildPhases = (
+				887A6F9223BF41680064462D /* Sources */,
+				887A6F9323BF41680064462D /* Frameworks */,
+				887A6F9423BF41680064462D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				887A6F9823BF41680064462D /* PBXTargetDependency */,
+			);
+			name = SwiftUIButtonDemoUITests;
+			productName = SwiftUIButtonDemoUITests;
+			productReference = 887A6F9623BF41680064462D /* SwiftUIButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		887A6F6D23BF41640064462D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Mobcoder;
+				TargetAttributes = {
+					887A6F7423BF41640064462D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					887A6F8A23BF41680064462D = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 887A6F7423BF41640064462D;
+					};
+					887A6F9523BF41680064462D = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 887A6F7423BF41640064462D;
+					};
+				};
+			};
+			buildConfigurationList = 887A6F7023BF41640064462D /* Build configuration list for PBXProject "SwiftUIButtonDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 887A6F6C23BF41640064462D;
+			productRefGroup = 887A6F7623BF41640064462D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				887A6F7423BF41640064462D /* SwiftUIButtonDemo */,
+				887A6F8A23BF41680064462D /* SwiftUIButtonDemoTests */,
+				887A6F9523BF41680064462D /* SwiftUIButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		887A6F7323BF41640064462D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887A6F8523BF41680064462D /* LaunchScreen.storyboard in Resources */,
+				887A6F8223BF41680064462D /* Preview Assets.xcassets in Resources */,
+				887A6F7F23BF41680064462D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887A6F8923BF41680064462D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887A6F9423BF41680064462D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		887A6F7123BF41640064462D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887A6F7923BF41640064462D /* AppDelegate.swift in Sources */,
+				887A6F7B23BF41640064462D /* SceneDelegate.swift in Sources */,
+				887A6F7D23BF41640064462D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887A6F8723BF41680064462D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887A6F9023BF41680064462D /* SwiftUIButtonDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887A6F9223BF41680064462D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887A6F9B23BF41680064462D /* SwiftUIButtonDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		887A6F8D23BF41680064462D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 887A6F7423BF41640064462D /* SwiftUIButtonDemo */;
+			targetProxy = 887A6F8C23BF41680064462D /* PBXContainerItemProxy */;
+		};
+		887A6F9823BF41680064462D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 887A6F7423BF41640064462D /* SwiftUIButtonDemo */;
+			targetProxy = 887A6F9723BF41680064462D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		887A6F8323BF41680064462D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				887A6F8423BF41680064462D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		887A6F9D23BF41680064462D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		887A6F9E23BF41680064462D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		887A6FA023BF41680064462D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIButtonDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobcoder.SwiftUIButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		887A6FA123BF41680064462D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIButtonDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobcoder.SwiftUIButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		887A6FA323BF41680064462D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftUIButtonDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobcoder.SwiftUIButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIButtonDemo.app/SwiftUIButtonDemo";
+			};
+			name = Debug;
+		};
+		887A6FA423BF41680064462D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftUIButtonDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobcoder.SwiftUIButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIButtonDemo.app/SwiftUIButtonDemo";
+			};
+			name = Release;
+		};
+		887A6FA623BF41680064462D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftUIButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobcoder.SwiftUIButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIButtonDemo;
+			};
+			name = Debug;
+		};
+		887A6FA723BF41680064462D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftUIButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobcoder.SwiftUIButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		887A6F7023BF41640064462D /* Build configuration list for PBXProject "SwiftUIButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887A6F9D23BF41680064462D /* Debug */,
+				887A6F9E23BF41680064462D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887A6F9F23BF41680064462D /* Build configuration list for PBXNativeTarget "SwiftUIButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887A6FA023BF41680064462D /* Debug */,
+				887A6FA123BF41680064462D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887A6FA223BF41680064462D /* Build configuration list for PBXNativeTarget "SwiftUIButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887A6FA323BF41680064462D /* Debug */,
+				887A6FA423BF41680064462D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887A6FA523BF41680064462D /* Build configuration list for PBXNativeTarget "SwiftUIButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887A6FA623BF41680064462D /* Debug */,
+				887A6FA723BF41680064462D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 887A6F6D23BF41640064462D /* Project object */;
+}
